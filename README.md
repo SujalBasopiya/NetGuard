@@ -34,5 +34,8 @@ sudo python netguard.py sniff -i eth0 --duration 60
 ## Tech
 Python 3, socket, threading, Scapy, CSV | Tested on Kali Linux
 
+## Results
+![Scan output](screenshots/scan_output.png)
+![CSV report](screenshots/scan_report.png)
 ## Future Improvements
 Email alerts, UDP scanning, GeoIP lookup of attackers, web dashboard.
